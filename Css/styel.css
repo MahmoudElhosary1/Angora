@@ -1,0 +1,238 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+}
+
+
+
+.header{
+   position: relative;
+    background-size: cover;
+    background-position: center ;
+   
+}
+
+.navbar{
+    position:fixed;
+    z-index: 999;
+    left: 0;
+    right: 0;
+
+}
+.navbar .container .nav-link:hover{
+    color: #f25454;
+}
+
+.carousel-inner .carousel-caption{
+font-weight: 700;
+line-height: 1;
+}
+
+
+.about:hover .line{
+    width: 60px;
+}
+.line{
+    width: 45px;
+    height: 1px;
+    margin: auto;
+    background-color: #09c;
+}
+.about-txt{
+    width: 85%;
+    margin: auto;
+}
+
+div .inner{
+    height: 4px;
+    background-color: rgba(143, 143, 153, 0.6);
+}
+div .inner-branding{
+    height: 4px;
+    width: 80%;
+    background-color: #f25454;
+}
+div .inner-web{
+    height: 4px;
+    width: 95%;
+    background-color: #f25454;
+}
+div .inner-graphic{
+    height: 4px;
+    width: 85%;
+    background-color: #f25454;
+}
+div .inner-development{
+    height: 4px;
+    width: 70%;
+    background-color: #f25454;
+}
+
+
+div .branding-per{
+    width: 80%;
+    position: relative;
+}
+div .web-per{
+    width: 95%;
+    position: relative;
+}
+div .graphic-per{
+    width: 85%;
+    position: relative;
+}
+div .development-per{
+    width: 70%;
+    position: relative;
+}
+div .per{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+
+/* our team */
+.member .photo{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+.member .photo img{
+    transition-duration: 1s;
+}
+
+.bak{
+    display: none;
+    position: absolute;
+    background-color: rgba(242, 84, 84, 0.85);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+
+
+}
+.member:hover .bak 
+{
+    display: flex;
+}
+.member:hover h5{
+    color: rgb(242, 84, 84);
+}
+.member:hover img{
+    transform: scale(1.1);
+    
+}
+
+
+
+/* form */
+.form h3{
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 32px;
+    line-height: 32px;
+}
+.field{
+    width: 100%;
+    line-height: 1;
+    padding: 14px 18px;
+    /* color: #a6a6a6; */
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid #eee;
+    background-color: #fff;
+    transition: border-color 0.15s ease-in;
+
+}
+.field:focus{
+    border: 2px solid #f25454;
+
+}
+textarea{
+    height: 110px;
+
+}
+
+
+
+
+
+.setting-icon i{
+    width: 39px;
+    height: 39px;
+    position:fixed;
+    z-index: 9999;
+    right: 10px;
+    left:0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#1f2528;;
+}
+.container .row h3 i{
+    color:  #f25454;
+    font-size: 28px;
+    margin-right: 20px;
+    text-align: center;
+    transition: all 0.3s;
+
+}
+.container .row h3:hover{
+    color: #f25454;
+}
+.container hr{
+    width: 45px;
+    height: 1px;
+    margin: auto;
+   
+    border-color: #000;
+
+}
+.container .row .span h3:hover hr{
+    width: 60px;
+}
+
+.line{
+    width: 40px;
+    height: 5px;
+    margin: auto;
+    color:#1f2528;
+}
+.container .row h3{
+    font-size: 18px;
+}
+
+
+.row-contant hr{
+    width: 50px;
+    height: 2px;
+    margin-top: 10px
+}
+.contact-c .row{
+    
+ background-color: #222222;
+}
+
+.container .row .contact-text i{
+    color:  #f25454;
+    font-size: 30px;
+   
+}
+
+.container-fluid .col-md-3 a{
+    text-decoration: none;
+    color:#b0b0b0;;
+}
+.container-fluid .col-md-3 {
+    color: #b0b0b0;
+}
+.container-fluid .col-md-3 .tag {
+    border:solid 1px #eee;
+
+}
